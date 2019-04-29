@@ -4,8 +4,9 @@
  */
 
 import React from 'react';
-import NumerosRandomicos from './NumerosRandomicos';
+import FrasesDoDia from './FrasesDoDia';
+// import NumerosRandomicos from './NumerosRandomicos';
 
-const App = () => <NumerosRandomicos />;
+const App = () => <FrasesDoDia />;
 
 export default App;
