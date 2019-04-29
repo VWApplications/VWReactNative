@@ -11,6 +11,14 @@
 7. Calculadora (Contexto Léxico e VirtualDOM)
 8. Whatsapp clone (Autenticação, CRUD, Firebase, Redux, Deploy)
 
+## Dicas
+
+Para abrir o debug no emulador aperte: ```Ctrl + M``` e ative o Remote JS Debugging.
+
+Se quiser que o emulador atualize sozinho aperte: ```Ctrl + M``` e ative o Enable Live Reload
+
+Para atualizar é só clicar R do teclado duas vezes seguidas.
+
 ## Instalação
 
 #### 1) Instalar o nodejs e o npm
