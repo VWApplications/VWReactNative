@@ -1,3 +1,5 @@
+/* Design */
+
 import React, { Component } from 'react';
 import { View, Text, Image, TouchableOpacity, Alert } from 'react-native';
 import { styles } from './style';

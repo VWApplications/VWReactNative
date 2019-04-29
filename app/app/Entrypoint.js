@@ -4,9 +4,10 @@
  */
 
 import React from 'react';
-import FrasesDoDia from './FrasesDoDia';
 // import NumerosRandomicos from './NumerosRandomicos';
+// import FrasesDoDia from './FrasesDoDia';
+import Jokenpo from './Jokenpo';
 
-const App = () => <FrasesDoDia />;
+const App = () => <Jokenpo />;
 
 export default App;
