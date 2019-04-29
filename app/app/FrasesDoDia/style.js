@@ -4,12 +4,17 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    alignItems: 'center'
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
+  botao: {
+    backgroundColor: '#538530',
+    paddingVertical: 10,
+    paddingHorizontal: 30,
+    marginTop: 20
   },
+  textoBotao: {
+    color: 'white',
+    fontSize: 16,
+    fontWeight: 'bold'
+  }
 });

@@ -133,4 +133,5 @@ Dentro do projeto criado execute:
 
 ```
 react-native run-android
+react-native run-ios
 ```
