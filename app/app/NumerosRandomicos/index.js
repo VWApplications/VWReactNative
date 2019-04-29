@@ -1,12 +1,23 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { Text, View, Button } from 'react-native';
 import { styles } from './style';
 
 export default class NumerosRandomicos extends Component {
+
+  geraNumeroAleatorio() {
+    const numeroAleatorio = Math.floor(Math.random() * 10);
+    // eslint-disable-next-line no-undef
+    alert(numeroAleatorio);
+  }
+
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Bem vindo ao React Native!</Text>
+        <Text style={styles.welcome}>Gerador de Números Randômicos</Text>
+        <Button
+          title="Gerar um número randômico"
+          onPress={this.geraNumeroAleatorio}
+        />
       </View>
     );
   }
