@@ -5,11 +5,9 @@
 1. Geração de números randomicos (Básico do JSX)
 2. Frases do dia (Visual bonito e Flexbox)
 3. Joquempô (Props, State, Modularização)
-4. Catalogo de itens (HTTP Request axios, Ciclo de vida, Debugging)
-5. Portifolio (Rotas e navegação)
-6. Jogo de cara ou coroa (Resumo de tudo, Router Flux)
-7. Calculadora (Contexto Léxico e VirtualDOM)
-8. Whatsapp clone (Autenticação, CRUD, Firebase, Redux, Deploy)
+4. Catalogo de itens (HTTP Request axios, Ciclo de vida)
+5. Calculadora (Formulários)
+6. Whatsapp clone (Autenticação, CRUD, Firebase, Redux, Deploy)
 
 ## Dicas
 

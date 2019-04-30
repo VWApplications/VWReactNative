@@ -26,6 +26,10 @@ class HomeScreen extends Component {
           title="Ir para o app catalogo de itens"
           onPress={() => this.props.navigation.navigate('Catalogo')}
         />
+        <Button
+          title="Ir para o app calculadora"
+          onPress={() => this.props.navigation.navigate('Calculador')}
+        />
       </View>
     );
   }
