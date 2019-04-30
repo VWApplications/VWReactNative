@@ -6,6 +6,9 @@ import { getItens } from './api';
 import ListaItens from './components/ListaItens';
 
 export default class CatalogoDeItens extends Component {
+  static navigationOptions = {
+    title: 'Catalogo de Itens'
+  }
 
   constructor(props) {
     super(props);

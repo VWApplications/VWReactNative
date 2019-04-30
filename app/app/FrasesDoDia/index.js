@@ -7,6 +7,9 @@ import { phrases } from './phrases';
 import logo from './imgs/logo.png';
 
 export default class FrasesDoDia extends Component {
+  static navigationOptions = ({ navigation }) => ({
+    title: navigation.getParam('titulo', 'Título padrão')
+  });
 
   gerarNovaFrase() {
     const numeroAleatorio = Math.floor(Math.random() * 5);

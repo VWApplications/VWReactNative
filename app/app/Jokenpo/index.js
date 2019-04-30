@@ -1,13 +1,21 @@
 /* State e Props e modularização */
 
 import React, { Component } from 'react';
-import { View } from 'react-native';
+import { ScrollView } from 'react-native';
 import { styles } from './style';
 import Logo from './components/Logo';
 import Resultados from './components/Resultados';
 import Escolhas from './components/Escolhas';
 
 export default class Jokenpo extends Component {
+  static navigationOptions = ({ navigationOptions }) => ({
+      title: 'JokenPO',
+      // Inverte as cores padrão definidas  no Router.js
+      headerStyle: {
+        backgroundColor: navigationOptions.headerTintColor
+      },
+      headerTintColor: navigationOptions.headerStyle.backgroundColor
+    });
 
   constructor(props) {
     super(props);
@@ -65,11 +73,11 @@ export default class Jokenpo extends Component {
     const { container } = styles;
 
     return (
-      <View style={container}>
+      <ScrollView style={container}>
         <Logo />
         <Escolhas jokenpo={this.jokenpo} />
         <Resultados state={this.state} />
-      </View>
+      </ScrollView>
     );
   }
 }
