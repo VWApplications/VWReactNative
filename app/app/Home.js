@@ -30,6 +30,10 @@ class HomeScreen extends Component {
           title="Ir para o app calculadora"
           onPress={() => this.props.navigation.navigate('Calculador')}
         />
+        <Button
+          title="Ir para o app calculadora baseado em Redux"
+          onPress={() => this.props.navigation.navigate('CalculadorRedux')}
+        />
       </View>
     );
   }

@@ -5,6 +5,7 @@ import Jokenpo from './Jokenpo';
 import CatalogoDeItens from './Catalogo';
 import HomeScreen from './Home';
 import Calculadora from './Calculadora';
+import CalculadoraRedux from './CalculadoraRedux';
 
 
 const AppNavigator = createStackNavigator(
@@ -14,7 +15,8 @@ const AppNavigator = createStackNavigator(
     Frases: FrasesDoDia,
     Numeros: NumerosRandomicos,
     JokenPO: Jokenpo,
-    Calculador: Calculadora
+    Calculador: Calculadora,
+    CalculadorRedux: CalculadoraRedux
   }, {
     initialRouteName: 'Home',
     defaultNavigationOptions: {
